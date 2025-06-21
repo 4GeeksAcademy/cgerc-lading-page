@@ -1,7 +1,7 @@
 const Footer = ()=> {
     return (
 
-<div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+<div className="d-flex justify-content-center bg-dark mt-3 " style={{color:"white"}}>
     <p>© 2025 GER Company, Inc. All rights reserved.</p>
     <ul className="list-unstyled d-flex">
         <li className="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram">
