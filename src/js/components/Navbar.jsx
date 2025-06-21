@@ -1,22 +1,22 @@
 
 const Navbar = (props) => {
 	return (
-		<nav className="navbar navbar-expand-lg bg-info">
+		<nav className="navbar navbar-expand-lg bg-dark" style={{color: 'white'}}>
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><b>{props.title}</b></a>
+    <a className="navbar-brand p-3" href="#" style={{color: 'white'}}><b>{props.title}</b></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Nosotros</a>
+          <a className="nav-link active p-3" aria-current="page" href="#" style={{color: 'white'}}>Nosotros</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Trabajos realizados</a>
+          <a className="nav-link p-3" href="#" style={{color: 'white'}}>Trabajos realizados</a>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className="nav-link dropdown-toggle p-3 " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color: 'white'}}>
             Servicios
           </a>
           <ul className="dropdown-menu">
