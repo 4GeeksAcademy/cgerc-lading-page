@@ -1,27 +1,34 @@
-import React from "react";
+import Card from "./Card";
+import Jumbotron from "./Jumbotron";
+import Navbar from "./Navbar";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
-//create your first component
 const Home = () => {
 	return (
-		<div className="text-center">
-            
+    <>
+      <Navbar title={"CGERC"}/>
+      <Jumbotron title={"LANDING PAGE"}/>
+      <div class="row align-items-start">
+    <div class="col">
+      <Card title={"t1"} imageUrl={"https://picsum.photos/300/200?random=1"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus."}/>
+      
+    </div>
+    <div class="col">
+      <Card title={"t1"} imageUrl={"https://picsum.photos/300/200?random=2"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus."}/>
+     
+    </div>
+    <div class="col">
+      <Card title={"t1"} imageUrl={"https://picsum.photos/300/200?random=3"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus."}/>
+    
+    </div>
+     <div class="col">
+      <Card title={"t1"} imageUrl={"https://picsum.photos/300/200?random=4"} description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, natus."}/>
+    
+    </div>
+  </div>
 
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
+    </>
+    
 	);
 };
 
