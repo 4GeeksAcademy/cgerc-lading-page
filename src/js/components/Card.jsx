@@ -8,7 +8,7 @@ const Card = (props) => {
       <p className="card-text">{props.description}</p>
     </div>
     <div className="card-footer">
-      <button className="btn btn-primary">Find Out More!</button>
+      <button className="btn btn-primary">Más información</button>
     </div>
   </div>
   )

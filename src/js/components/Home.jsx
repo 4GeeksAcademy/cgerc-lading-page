@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Footer from "./Footer";
 import Jumbotron from "./Jumbotron";
 import Navbar from "./Navbar";
 
@@ -14,7 +15,7 @@ const Home = () => {
 
         </div>
         <div class="col">
-          <Card title={"Arriendo de maquinarias para construcción"} imageUrl={"https://cdnx.jumpseller.com/casticar/image/51097924/resize/1200/1200?1721933730"} description={"Incluye: plataformas elevadoras, generadores eléctricos, compresores de aire, torres de iluminación, motobombas, soldadoras, taladros, esmeriles , sierras, etc."}/>
+          <Card title={"Arriendo de maquinarias para construcción"} imageUrl={"https://cdnx.jumpseller.com/casticar/image/51097924/resize/1200/1200?1721933730"} description={"Incluye: plataformas elevadoras, generadores eléctricos, compresores de aire, torres de iluminación, motobombas, soldadoras, taladros, esmeriles , sierras, etc."} />
 
         </div>
         <div class="col">
@@ -25,8 +26,9 @@ const Home = () => {
           <Card title={"Servicio de limpieza clinica"} imageUrl={"https://wipp.cl/wp-content/uploads/2019/11/personal-de-aseo-en-chile.jpg.webp"} description={"Un servicio de limpieza clínica va mucho más allá de la limpieza convencional; es un conjunto de procedimientos especializados diseñados para mantener entornos de salud estériles, seguros y libres de patógenos. Este servicio es crucial en hospitales, clínicas, consultorios médicos, laboratorios y cualquier instalación donde la higiene es vital para prevenir la propagación de infecciones y proteger la salud de nuestros clientes."} />
 
         </div>
-      </div>
 
+      </div>
+      <Footer title={"Company"}/>
     </>
 
   );
